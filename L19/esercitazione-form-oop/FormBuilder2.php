@@ -1,5 +1,17 @@
 <?php
 
+//VERSIONE ALTERNATIVA, SENZA METODO ADDINPUT
+//IL COSTRUTTORE VUOLE UN ARRAY CONTENENTE ARRAY ASSOCIATIVI CON QUESTO FORMATO:
+/**
+ * [
+ *    "type" => [VALORE],
+ *    "name" => [VALORE],
+ *    "placeholder" => [VALORE]   
+ * ]
+ * 
+ * OGNI ARRAY ASSOCIATIVO INSERITO IN QUESTO ARRAY DIVENTA UN CAMPO CHE VIENE RENDERIZZATO
+ */
+
 //la classe deve:
 //Inizializzare un tag Form 
 //Inserire al suo interno input su richiesta 
